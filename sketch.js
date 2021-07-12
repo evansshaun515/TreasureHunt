@@ -4,8 +4,9 @@ var score=0;
 function preload() {
  
   
-  bg= loadImage("aladdin_cave.jpg")
+  bg = loadImage("aladdin_cave.jpg")
   //load image for the treasure background
+  bg2 = loadImage("aladdin_cave2.jpg")
   
 }
 
@@ -37,4 +38,13 @@ function draw() {
   }
 
   drawSprites()
+}
+
+if(score === 3)
+{
+    clear()
+    background(bg2)
+    fill('black')
+    textSize(40);
+    text('TREASURE UNLOCKED', 250, 200);
 }
