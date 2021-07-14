@@ -6,19 +6,19 @@ function clues() {
     
     fill("white")
     textSize(15)
-    text("R E V B A I L A", 100,50)
+    text("R E V B A I L A", 100,90)
     fill("lightblue")
-    text("Hint: Always changing, not constant !!", 100,70)
+    text("Hint: Always changing, not constant !!", 100,110)
 // add code for displaying rest of the names and the hints.
     
     fill("white")
     textSize(15)
-    text("C U T N I F O N", 100,100)
+    text("C U T N I F O N", 700,150)
     fill("lightblue")
 
     fill("white")
     textSize(15)
-    text("A T A D A S B A", 250,75)
+    text("A T A D A S B A", 390,250)
     fill("lightblue")
     
 
