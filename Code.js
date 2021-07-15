@@ -15,11 +15,13 @@ function clues() {
     textSize(15)
     text("C U T N I F O N", 700,150)
     fill("lightblue")
+    text('Hint: Performs a particular task', 700,170)
 
     fill("white")
     textSize(15)
     text("A T A D A S B A", 390,250)
     fill("lightblue")
+    text('Hint: Stores all information', 390,270)
     
 
 }
